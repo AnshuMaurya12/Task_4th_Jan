@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Given_no_is_50_or_sumOf50</title>
+</head>
+<body>
+<script type="text/javascript">
+	
+	//Declartion
+var x,y;
+
+   //Calculation
+	function test50(x, y) 
+{
+  return ((x == 50 || y == 50) || (x + y == 50));
+}
+//Presentation
+document.write('If Value x= 50 , y=50  : '+test50(50, 50)+ '<br>')
+document.write('If Value x= 20 , y=50  : '+test50(20, 50)+ '<br>')
+document.write('If Value x= 20 , y=20  : '+test50(20, 20)+ '<br>')
+document.write('If Value x= 20 , y=30  : '+test50(20, 30)+ '<br>')
+</script>
+</body>
+</html>
